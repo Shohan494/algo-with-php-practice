@@ -4,6 +4,8 @@ include 'memoryAndRuntime.php';
 
 // this search will be applicable for sorted ascending value, low to high
 
+// Note: recursive function usage will require start and end loop as parameter
+
 function binarySearch($array, $value)
 {
 	$middlePoint = ceil(count($array)/2); // or we can use round
